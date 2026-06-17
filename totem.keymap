@@ -61,21 +61,21 @@
 label= "HOME"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃     Q     ┃     W     ┃     F     ┃     P     ┃     G     ┃   ┃     J     ┃     L     ┃     U     ┃     Y     ┃     ;     ┃
+//             ┃      W    ┃     L     ┃    R      ┃     B     ┃     J     ┃   ┃      Z    ┃   Q       ┃     U     ┃     D     ┃   X       ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     A     ┃     R     ┃     S     ┃     T     ┃     D     ┃   ┃     H     ┃     N     ┃     E     ┃     I     ┃     O     ┃
+//             ┃      S    ┃     H     ┃    N      ┃     T     ┃   ;       ┃   ┃    APOS   ┃   A       ┃     E     ┃     I     ┃     O     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     K     ┃     M     ┃     ,     ┃     .     ┃     /     ┃           ┃
+// ┃           ┃      F    ┃     M     ┃    V      ┃     C     ┃    ,      ┃   ┃   .       ┃   P       ┃     G     ┃    K      ┃    Y      ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
-//                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+//               sys_reset   ALT RET   ┃ LCTRL TAB ┃RSHFT SPACE┃ RGUI BSP  ┃   ┃  RGUI BSP ┃RSHFT SPACE┃ LCTRL TAB ┃ALT RET     sys_reset
+//                                   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷             ╷             ╷               ╷                 ╷           ╷     ╷             ╷               ╷             ╷             ╷           ╷
 
-                &kp Q          &kp W         &kp F          &kp P           &kp G             &kp J         &kp L           &kp U         &kp Y        &kp SEMI
-                &mt LGUI A     &mt LALT R    &mt LCTRL S    &mt LSHFT T     &kp D             &kp H         &mt RSHFT N     &mt RCTRL E   &mt RALT I   &mt RGUI O
-                &kp Z          &kp X         &kp C          &kp V           &kp B             &kp K         &kp M           &kp COMMA     &kp DOT      &kp FSLH    
-                &kp bootloader &mt LALT RET  &mt LCTRL TAB  &mt RSHFT SPACE &mt RGUI BSPC     &mt RGUI BSP  &mt RSHFT SPACE &mt LCTRL TAB &mt RALT RET &kp system_reset 
+                &kp W          &kp L         &kp R          &kp B             &kp J             &kp Z         &kp Q           &kp U         &kp D        &kp X
+                &lt SYSTEM S   &lt HOME H    &lt NUMBER N   &lt BLUETOOTH T   &kp SEMI          &kp APOS      &kp A           &kp E         &kp O        &kp I  
+                &kp F          &kp M         &kp  V         &kp C             &kp COMMA         &kp DOT       &kp P           &kp G         &kp K        &kp Y
+                &sys_reset     &mt LALT RET  &mt LCTRL TAB  &mt RSHFT SPACE   &mt RGUI BSPC     &mt RGUI BSP  &mt RSHFT SPACE &mt LCTRL TAB &mt RALT RET &sys_reset 
                         >;
                 };
 
@@ -87,21 +87,21 @@ label= "HOME"                              ;
 label= "NUMBER"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃           ┃     UP    ┃           ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃     +     ┃
+//             ┃     7     ┃     8     ┃     9     ┃    0      ┃   trans   ┃   ┃   trans   ┃    BKT    ┃   RBKT    ┃   BSLH    ┃   FLSH    ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃   SHIFT   ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃     [     ┃   ┃     ]     ┃     4     ┃     5     ┃     6     ┃     -     ┃
+//             ┃     4     ┃     5     ┃     6     ┃btooth/grave ┃ trans   ┃   ┃   trans   ┃   LEFT    ┃    UP     ┃    DN     ┃   RIGHT   ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃           ┃   P UP    ┃  C LOCK   ┃  P DOWN   ┃     (     ┃   ┃     )     ┃     1     ┃     2     ┃     3     ┃     *     ┃           ┃
+// ┃           ┃     1     ┃     2     ┃     3     ┃   trans   ┃   trans   ┃   ┃   trans   ┃   EQUAL   ┃   MINUS   ┃     &gif  ┃    ESC    ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
+//                 trans      trans    ┃   trans   ┃   trans   ┃   trans   ┃   ┃   trans   ┃   trans   ┃   trans   ┃   trans      trans
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷             ╷            ╷              ╷                    ╷      ╷  ╷          ╷          ╷          ╷           ╷           ╷
 
-                &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &kp LBRC        &kp RBRC    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
-                &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
-                &kp DEL     &kp PG_UP   &kp CAPS    &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY       
-                &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans 
+                &kp N7        &kp N8       &kp N9         &kp N0               &trans   &trans    &kp LBKT   &kp RBKT   &kp BSLH   &kp FLSH 
+                &lt SYSTEM N4 &lt HOME N5  &lt NUMBER N6  &lt BLUETOOTH GRAVE  &trans   &trans    &kp LEFT   &kp UP     &kp DN     &kp RIGHT  
+                &kp N1        &kp N2       &kp N3         &trans               &trans   &trans    &kp EQUAL  &kp MINUS  &gif       &kp ESC            
+                &trans        &trans       &trans         &trans               &trans   &trans    &trans     &trans     &trans     &trans 
                         >;
                 };
 
@@ -113,21 +113,21 @@ label= "NUMBER"                              ;
 label= "SYSTEM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
+//             ┃ &kp PG UP ┃ &kp PG DN ┃   &trans  ┃       &trans        &trans  ┃  ┃&trans┃ &kpC_MUTE ┃&kp C_VOL_DN┃ &kp C_VOL_UP ┃ &trans
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+//             ┃ SYSTEM F1 ┃  HOME F2  ┃ NUMBER F3 ┃&lt BLUETOOTH  F4    &kp F5  ┃  ┃&kp F6┃    &kp F7 ┃   &kp F8  ┃  &kp F9   ┃  &kp F10  ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
+// ┃           ┃kp C_BRI_UP┃C_BRI_DN   ┃ &trans    ┃       &trans        &trans  ┃  ┃&trans┃  &trans   ┃  &trans   ┃  &trans   ┃    ESC    ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
+//                 &trans     &trans   ┃   &trans  ┃        &trans       &trans  ┃  ┃trans ┃   &trans  ┃   &trans  ┃&trans        &trans
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷              ╷             ╷              ╷                   ╷        ╷   ╷           ╷              ╷             ╷             ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET     &kp AMPS       &kp RA(U)   &kp SQT     &kp DQT       
-                &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE    &kp LS(RA(N4)) &kp RA(N5)  &kp RA(N4)  &kp RA(O) 
-                &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN  &kp C_VOL_UP   &kp C_PREV  &kp C_NEXT  &kp BSLH            
-                &trans      &trans      &trans      &trans      &trans          &trans        &trans         &trans      &trans      &trans 
+                &kp PG UP       &kp PG DN    &trans         &trans               &trans      &trans      &kp C_MUTE     &kp C_VOL_DN  &kp C_VOL_UP  &trans      
+                &lt SYSTEM F1   &lt HOME F2  &lt NUMBER F3  &lt BLUETOOTH  F4    &kp F5      &kp F6      &kp F7         &kp F8        &kp F9        &kp F10
+                &kp C_BRI_UP    &kp C_BRI_DN &trans         &trans               &trans      &trans      &trans         &trans        &trans        &kp ESC            
+                &trans          &trans       &trans         &trans               &trans      &trans      &trans         &trans        &trans        &trans 
                         >;
                 };
 
@@ -139,21 +139,21 @@ label= "SYSTEM"                               ;
 label= "BLUETOOTH"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃   RESET   ┃ BT CLEAR  ┃  OUT TOG  ┃           ┃           ┃   ┃           ┃    F7     ┃    F8     ┃    F9     ┃    F12    ┃
+//             ┃   &trans  ┃  &trans   ┃   &trans  ┃  &trans   ┃   &trans  ┃   ┃    &trans  ┃   &trans   ┃   &trans   ┃   &trans   ┃   &trans   ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃ BOOTLOAD  ┃ BT NEXT   ┃           ┃           ┃           ┃   ┃           ┃    F4     ┃    F5     ┃    F6     ┃    F11    ┃
+//             ┃SYSTEM F11 ┃  HOME F12 ┃ NUMBER F13┃ BTOOTH F14┃  &kp F15  ┃   ┃  &kp F16   ┃  &kp F17   ┃  &kp F18   ┃  &kp F19   ┃   &kp F20  ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃           ┃ BT PREV   ┃           ┃           ┃           ┃   ┃           ┃    F1     ┃    F2     ┃    F3     ┃    F10    ┃           ┃
+// ┃           ┃ &kp BT_CLR┃  BT_NXT   ┃&kp BT_PRV ┃  OUT_TOG  ┃   trans   ┃   ┃&bt BT_SEL 0┃&bt BT_SEL 1┃&bt BT_SEL 2┃&bt BT_SEL 3┃&bt BT_SEL 4┃          ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
+//                 &trans     &trans   ┃   &trans  ┃   &trans  ┃   &trans  ┃   ┃   &trans   ┃   &trans   ┃   &trans   ┃   &trans       &trans 
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷               ╷            ╷               ╷                   ╷        ╷   ╷            ╷            ╷            ╷            ╷           ╷           ╷
 
-                &sys_reset  &bt BT_CLR  &out OUT_TOG &trans     &trans          &trans      &kp F7      &kp F8      &kp F9      &kp F12
-                &bootloader &bt BT_NXT  &trans      &trans      &trans          &trans      &kp F4      &kp F5      &kp F6      &kp F11  
-                &trans      &bt BT_PRV  &trans      &trans      &trans          &trans      &kp F1      &kp F2      &kp F3      &kp F10            
-                &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans 
+                &trans          &trans       &trans          &trans              &trans       &trans       &trans       &trans       &trans       &trans
+                &lt SYSTEM F11  &lt HOME F12 &lt NUMBER F13  &lt BLUETOOTH F14   &kp F15      &kp F16      &kp F17      &kp F18      &kp F19      &kp F20
+                &bt BT_CLR      &bt BT_NXT   &bt BT_PRV      &out OUT_TOG        &trans       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4           
+                &trans          &trans       &trans          &trans              &trans       &trans       &trans       &trans       &trans       &trans 
                         >;
                 };
         };
